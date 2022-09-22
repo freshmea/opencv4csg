@@ -18,3 +18,9 @@ target_link_libraries(study3_test ${OpenCV_LIBS})
 
 add_executable(study4_line study4/line.cpp)
 target_link_libraries(study4_line ${OpenCV_LIBS})
+
+add_executable(study4_drawing study4/drawing.cpp)
+target_link_libraries(study4_drawing ${OpenCV_LIBS})
+
+add_executable(study4_video study4/video.cpp)
+target_link_libraries(study4_video ${OpenCV_LIBS})
