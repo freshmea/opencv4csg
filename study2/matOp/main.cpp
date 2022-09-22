@@ -14,13 +14,13 @@ void MatOp7();
 
 int main()
 {
-	MatOp1();
-	MatOp2();
+//	MatOp1();
+//	MatOp2();
 	MatOp3();
-	MatOp4();
-	MatOp5();
-	MatOp6();
-	MatOp7();
+//	MatOp4();
+//	MatOp5();
+//	MatOp6();
+//	MatOp7();
 
 	return 0;
 }
@@ -80,7 +80,7 @@ void MatOp2()
 
 void MatOp3()
 {
-	Mat img1 = imread("/study2/matOp/cat.bmp");
+	Mat img1 = imread("study2/matOp/cat.bmp");
 
 	if (img1.empty()) {
 		cerr << "Image load failed!" << endl;
