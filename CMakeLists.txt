@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(HelloCV)
 find_package(OpenCV REQUIRED)
+find_package(Poco REQUIRED COMPONENTS Foundation Net Zip Util)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(HelloCV study1/main.cpp)
@@ -24,3 +25,10 @@ target_link_libraries(study4_drawing ${OpenCV_LIBS})
 
 add_executable(study4_video study4/video.cpp)
 target_link_libraries(study4_video ${OpenCV_LIBS})
+
+
+INCLUDE_DIRECTORIES("/usr/include/openssl")
+INCLUDE_DIRECTORIES("/usr/local/include/Poco")
+
+add_executable(test test/test.cpp)
+target_link_libraries(test PUBLIC Poco::Foundation Poco::Zip Poco::Net Poco::Util)
