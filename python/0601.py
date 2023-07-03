@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-src = cv2.imread('./data/lena.jpg', cv2.IMREAD_GRAYSCALE)
+src = cv2.imread('python/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
 
 dst1= cv2.boxFilter(src, ddepth=-1, ksize=(11, 11))
 dst2 = cv2.boxFilter(src, ddepth=-1, ksize=(21, 21))

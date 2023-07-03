@@ -3,7 +3,7 @@ import cv2
 from   matplotlib import pyplot as plt
 
 #1
-src = cv2.imread('./data/people.png')
+src = cv2.imread('python/data/people.png')
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())  # 64x128
 
@@ -15,7 +15,7 @@ dst1 = src.copy()
 w, h = hog.winSize
 for pt in loc1:
     x, y = pt
-    cv2.rectangle(dst, (x, y), (x+w, y+h), (255,0,0),2)
+    cv2.rectangle(dst1, (x, y), (x+w, y+h), (255,0,0),2)
 cv2.imshow('dst1',  dst1)
 
 #2

@@ -15,7 +15,7 @@ def floodFillPostProcess(src, diff=(2,2,2)):
                 cv2.floodFill(img,mask,(x,y),(b,g,r),diff,diff)
     return img
 #2
-src = cv2.imread('./data/flower.jpg')
+src = cv2.imread('python/data/flower.jpg')
 hsv = cv2.cvtColor(src, cv2.COLOR_BGR2HSV)
 dst  = floodFillPostProcess(src)
 dst2 = floodFillPostProcess(hsv)

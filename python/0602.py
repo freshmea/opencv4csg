@@ -15,3 +15,5 @@ cv2.imshow('dst3',  dst3)
 cv2.imshow('dst4',  dst4)
 cv2.waitKey()    
 cv2.destroyAllWindows()
+a= dict()
+a.items

@@ -1,8 +1,9 @@
 # 0407.py
 import cv2
  
-src = cv2.imread('./data/lena.jpg', cv2.IMREAD_GRAYSCALE)
+src = cv2.imread('python/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
 roi = cv2.selectROI(src)
+print(type(roi))
 print('roi =', roi)
 
 if roi != (0, 0, 0, 0):

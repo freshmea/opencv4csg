@@ -4,7 +4,7 @@ import numpy as np
 
 img = cv2.imread('./data/lena.jpg') # cv2.IMREAD_COLOR
 ##img = cv2.imread('./data/lena.jpg', cv2.IMREAD_GRAYSCALE)
-
+img.size
 print('img.ndim=', img.ndim)
 print('img.shape=', img.shape)
 print('img.dtype=', img.dtype)

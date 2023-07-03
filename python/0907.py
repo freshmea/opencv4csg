@@ -24,7 +24,7 @@ def filteringByDistance(kp, distE=0.5):
     return list(np_kp[mask])
     
 #2
-src = cv2.imread('./data/chessBoard.jpg')
+src = cv2.imread('python/data/chessBoard.jpg')
 gray= cv2.cvtColor(src,cv2.COLOR_BGR2GRAY)
 gray = cv2.GaussianBlur(gray, (5, 5), 0.0)
 

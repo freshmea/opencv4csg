@@ -7,7 +7,7 @@ import cv2
 import numpy as np
 
 #1
-src   = cv2.imread('./data/T.jpg', cv2.IMREAD_GRAYSCALE)
+src   = cv2.imread('python/data/T.jpg', cv2.IMREAD_GRAYSCALE)
 ##src   = cv2.imread('alphabet.bmp', cv2.IMREAD_GRAYSCALE)
 ##src = cv2.bitwise_not(src)
 

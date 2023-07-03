@@ -11,7 +11,7 @@ gray = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
 
 #2
 mode = cv2.RETR_LIST
-method = cv2.CHAIN_APPROX_SIMPLE;
+method = cv2.CHAIN_APPROX_SIMPLE
 contours, hierarchy = cv2.findContours(gray, mode, method)
 ##cv2.drawContours(src, contours, -1, (255,0,0), 3)  
 

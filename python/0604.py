@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from   matplotlib import pyplot as plt
 
-src = cv2.imread('./data/rect1.jpg', cv2.IMREAD_GRAYSCALE)
+src = cv2.imread('python/data/rect1.jpg', cv2.IMREAD_GRAYSCALE)
 ##src = cv2.imread('./data/line.png', cv2.IMREAD_GRAYSCALE)
 cv2.imshow('src',  src)
 

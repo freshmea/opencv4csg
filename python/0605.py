@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 #1
-src = cv2.imread('./data/lena.jpg', cv2.IMREAD_GRAYSCALE)
+src = cv2.imread('python/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
 blur= cv2.GaussianBlur(src, ksize=(7, 7), sigmaX=0.0)
 cv2.imshow('src',  src)
 cv2.imshow('blur', blur)

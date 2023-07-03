@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 #1
-src1 = cv2.imread('./data/circles.jpg')
+src1 = cv2.imread('python/data/circles.jpg')
 gray1 = cv2.cvtColor(src1,cv2.COLOR_BGR2GRAY)
 circles1 = cv2.HoughCircles(gray1, method = cv2.HOUGH_GRADIENT,
             dp=1, minDist=50, param2=15)
@@ -16,7 +16,7 @@ for circle in circles1[0,:]:
 cv2.imshow('src1',  src1)
 
 #2
-src2 = cv2.imread('./data/circles2.jpg')
+src2 = cv2.imread('python/data/circles2.jpg')
 gray2 = cv2.cvtColor(src2,cv2.COLOR_BGR2GRAY)
 circles2 = cv2.HoughCircles(gray2, method = cv2.HOUGH_GRADIENT,
           dp=1, minDist=50, param2=15, minRadius=30, maxRadius=100)

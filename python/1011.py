@@ -31,7 +31,7 @@ def onMouse(event, x, y, flags, param=None):
 cv2.namedWindow('tracking')
 cv2.setMouseCallback('tracking', onMouse)
 
-cap = cv2.VideoCapture('./data/ball.wmv')
+cap = cv2.VideoCapture('python/data/ball.wmv')
 if (not cap.isOpened()): 
      print('Error opening video')    
 height, width = (int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)),

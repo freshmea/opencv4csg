@@ -2,7 +2,7 @@
 import cv2
 
 # cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)  # 0번 카메라
-cap = cv2.VideoCapture('./data/vtest.avi')
+cap = cv2.VideoCapture('python/data/record0.mp4')
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
 

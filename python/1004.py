@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('./data/vtest.avi')
+cap = cv2.VideoCapture('python/data/vtest.avi')
 if (not cap.isOpened()): 
      print('Error opening video')
      

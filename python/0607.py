@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-src  = cv2.imread('./data/rect.jpg', cv2.IMREAD_GRAYSCALE)
+src  = cv2.imread('python/data/rect.jpg', cv2.IMREAD_GRAYSCALE)
 ##src  = cv2.imread('./data/lena.jpg', cv2.IMREAD_GRAYSCALE)
 
 #1

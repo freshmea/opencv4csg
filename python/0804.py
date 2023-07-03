@@ -15,7 +15,7 @@ def findLocalMaxima(src):
     points[:,[0, 1]] = points[:,[1, 0]] 
     return points
 #2
-src = cv2.imread('./data/CornerTest.jpg')
+src = cv2.imread('python/data/CornerTest.jpg')
 gray = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
 res = cv2.cornerHarris(gray, blockSize=5, ksize=3, k=0.01)
 ret, res = cv2.threshold(np.abs(res),0.02, 0, cv2.THRESH_TOZERO)

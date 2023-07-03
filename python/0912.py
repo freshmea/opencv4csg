@@ -2,8 +2,8 @@
 import cv2
 import numpy as np
 #1    
-src1 = cv2.imread('./data/book1.jpg') # 'cup1.jpg'
-src2 = cv2.imread('./data/book2.jpg') # 'cup2.jpg'
+src1 = cv2.imread('python/data/book1.jpg') # 'cup1.jpg'
+src2 = cv2.imread('python/data/book2.jpg') # 'cup2.jpg'
 img1= cv2.cvtColor(src1,cv2.COLOR_BGR2GRAY)
 img2= cv2.cvtColor(src2,cv2.COLOR_BGR2GRAY)
 

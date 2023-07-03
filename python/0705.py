@@ -3,14 +3,14 @@ import cv2
 import numpy as np
 
 #1
-src1 = cv2.imread('./data/hand.jpg')
+src1 = cv2.imread('python/data/hand.jpg')
 hsv1 = cv2.cvtColor(src1, cv2.COLOR_BGR2HSV)
 lowerb1 = (0, 40, 0)
 upperb1 = (20, 180, 255)
 dst1 = cv2.inRange(hsv1, lowerb1, upperb1)
 
 #2
-src2 = cv2.imread('./data/flower.jpg')
+src2 = cv2.imread('python/data/flower.jpg')
 hsv2 = cv2.cvtColor(src2,cv2.COLOR_BGR2HSV)
 lowerb2 = (150, 100, 100)
 upperb2 = (180, 255, 255)

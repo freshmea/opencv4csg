@@ -8,7 +8,7 @@ cv2.rectangle(src, (50, 100), (450, 400), (255, 255, 255), -1)
 cv2.rectangle(src, (100, 150), (400, 350), (0, 0, 0), -1)
 cv2.rectangle(src, (200, 200), (300, 300), (255, 255, 255), -1)
 gray = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
-
+# d
 #2
 mode = cv2.RETR_EXTERNAL
 method = cv2.CHAIN_APPROX_SIMPLE

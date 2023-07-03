@@ -2,7 +2,7 @@
 import cv2
 import numpy as np 
 #1
-src = cv2.imread('./data/tsukuba_l.png', cv2.IMREAD_GRAYSCALE)
+src = cv2.imread('python/data/tsukuba_l.png', cv2.IMREAD_GRAYSCALE)
 cv2.imshow('src', src)
 
 #2

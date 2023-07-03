@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 #1
-src = cv2.imread('./data/CornerTest.jpg')
+src = cv2.imread('python/data/CornerTest.jpg')
 gray = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
 res = cv2.cornerHarris(gray, blockSize=5, ksize=3, k=0.01)
 

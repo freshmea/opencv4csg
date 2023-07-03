@@ -4,7 +4,7 @@ src = cv2.imread('./data/lena.jpg')
 
 b, g, r = cv2.split(src)
 dst = cv2.merge([b, g, r]) 
-
+cv2.getAffineTransform
 print(type(dst))
 print(dst.shape)
 cv2.imshow('dst',  dst)

@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from   matplotlib import pyplot as plt
 
-src = cv2.imread('./data/lena.jpg')
+src = cv2.imread('python/data/lena.jpg')
 histColor = ('b', 'g', 'r')
 for i in range(3):
     hist = cv2.calcHist(images=[src], channels=[i], mask=None,

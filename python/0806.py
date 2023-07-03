@@ -3,10 +3,10 @@ import cv2
 import numpy as np
 
 #1
-src = cv2.imread('./data/CornerTest.jpg')
+src = cv2.imread('python/data/CornerTest.jpg')
 gray = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
 
-K = 5 
+K =5
 ##K = 10
 corners = cv2.goodFeaturesToTrack(gray, maxCorners=K,
               qualityLevel=0.05, minDistance=10)

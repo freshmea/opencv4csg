@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 #1
-src = cv2.imread('./data/hand.jpg')
+src = cv2.imread('python/data/hand.jpg')
 ##src = cv2.imread('./data/flower.jpg')
 hsv = cv2.cvtColor(src, cv2.COLOR_BGR2HSV)
 

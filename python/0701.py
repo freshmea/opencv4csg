@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-src = cv2.imread('./data/lena.jpg', cv2.IMREAD_GRAYSCALE)
+src = cv2.imread('python/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
 
 edges1 = cv2.Canny(src, 50, 100)
 edges2 = cv2.Canny(src, 50, 200)

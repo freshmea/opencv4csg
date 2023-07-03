@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from   matplotlib import pyplot as plt
 
-src = cv2.imread('./data/lena.jpg', cv2.IMREAD_GRAYSCALE)
+src = cv2.imread('python/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
 dst = cv2.equalizeHist(src)
 cv2.imshow('dst',  dst)
 cv2.waitKey()    

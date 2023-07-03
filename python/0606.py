@@ -4,7 +4,7 @@ import numpy as np
 
 #1
 #src  = cv2.imread('./data/A.bmp', cv2.IMREAD_GRAYSCALE)
-src  = cv2.imread('./data/rect.jpg', cv2.IMREAD_GRAYSCALE)
+src  = cv2.imread('python/data/rect.jpg', cv2.IMREAD_GRAYSCALE)
 #src  = cv2.imread('./data/lena.jpg', cv2.IMREAD_GRAYSCALE)
 blur = cv2.GaussianBlur(src, ksize=(7, 7), sigmaX=0.0)
 lap = cv2.Laplacian(blur, cv2.CV_32F,3)

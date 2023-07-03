@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-src = cv2.imread('./data/rect.jpg')
+src = cv2.imread('python/data/rect.jpg')
 gray = cv2.cvtColor(src,cv2.COLOR_BGR2GRAY)
 edges = cv2.Canny(gray, 50, 100)
 lines = cv2.HoughLines(edges, rho=1, theta=np.pi/180.0, threshold=100)

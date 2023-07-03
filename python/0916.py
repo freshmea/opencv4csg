@@ -2,7 +2,7 @@
 import cv2
 from   matplotlib import pyplot as plt
 
-src = cv2.imread('./data/people1.png')
+src = cv2.imread('python/data/people1.png')
 
 #1: HOG in color image
 hog1 = cv2.HOGDescriptor()

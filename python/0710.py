@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 #1
-src = cv2.imread('./data/hand.jpg')
+src = cv2.imread('python/data/hand.jpg')
 ##src = cv2.imread('./data/flower.jpg')
 mask   = np.zeros(shape=src.shape[:2], dtype=np.uint8)
 markers= np.zeros(shape=src.shape[:2], dtype=np.int32)
@@ -27,7 +27,7 @@ while True:
     key = cv2.waitKey(30) # cv2.waitKeyEx(30)
     
     if key == 0x1B: 
-        break;
+        break
     elif key == ord('r'): #3-2
         mask[:,:] = 0        
         dst = src.copy()

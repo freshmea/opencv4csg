@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-src  = cv2.imread('./data/lena.jpg', cv2.IMREAD_GRAYSCALE)
+src  = cv2.imread('python/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
 
 #1
 def logFilter(ksize=7):

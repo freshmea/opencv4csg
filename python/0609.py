@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-src   = cv2.imread('./data/morphology.jpg', cv2.IMREAD_GRAYSCALE)
+src   = cv2.imread('python/data/morphology.jpg', cv2.IMREAD_GRAYSCALE)
 kernel= cv2.getStructuringElement(shape=cv2.MORPH_RECT, ksize=(3,3))
 erode = cv2.erode(src,kernel,iterations = 5)
 dilate = cv2.dilate(src,kernel,iterations = 5)

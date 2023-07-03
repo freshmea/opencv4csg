@@ -21,7 +21,7 @@ cv2.createTrackbar('B', 'img', 0, 255, onChange)
 # 트랙바 위치 초기화
 #cv2.setTrackbarPos('R', 'img', 0)
 #cv2.setTrackbarPos('G', 'img', 0)
-cv2.setTrackbarPos('B', 'img', 255)
+# cv2.setTrackbarPos('B', 'img', 255)
 
 cv2.waitKey()
 cv2.destroyAllWindows()

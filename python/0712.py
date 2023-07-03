@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 #1
-src = cv2.imread('./data/lena.jpg')
+src = cv2.imread('python/data/lena.jpg')
 
 down2 = cv2.pyrDown(src)
 down4 = cv2.pyrDown(down2)

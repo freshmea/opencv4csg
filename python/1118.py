@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 #1 
-img = cv2.imread("./data/aruco_6x6.png") # "./data/aruco_5x5.png"
+img = cv2.imread("python/data/aruco_6x6.png") # "./data/aruco_5x5.png"
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 #2
